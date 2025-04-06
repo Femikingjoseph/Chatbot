@@ -59,27 +59,27 @@ function provideAnswer(question) {
         case '1':
         case 'what are the admission requirements?':
             answer = 'You need a Senior Secondary School Certificate, Birth Certificate, International Passport, and 8 Passport Photos.';
-            link = 'https://esfambeninuni.com/admission.php';
+            link = 'esfambeninuni.com/admission.php';
             break;
         case '2':
         case 'what courses are offered?':
             answer = 'Courses include Business, Communication, and more. Visit our Academics page for details.';
-            link = 'https://esfambeninuni.com/academics.php';
+            link = 'esfambeninuni.com/academics.php';
             break;
         case '3':
         case 'what is the tuition fee structure?':
             answer = 'Tuition fees vary. Visit the fees page for details.';
-            link = 'https://esfambeninuni.com/contact.php';
+            link = 'esfambeninuni.com/contact.php';
             break;
         case '4':
         case 'how can i apply?':
             answer = 'Apply online through our portal.';
-            link = 'https://esfambeninuni.com/apply.php';
+            link = 'esfambeninuni.com/apply.php';
             break;
         case '5':
         case 'where is the university located?':
             answer = 'ESFAM University is located in Porto Novo, Benin Republic.';
-            link = 'https://esfambeninuni.com/contact.php';
+            link = 'esfambeninuni.com/contact.php';
             break;
         case '6':
         case 'what is the current weather?':
