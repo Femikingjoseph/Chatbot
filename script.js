@@ -64,12 +64,12 @@ function provideAnswer(question) {
         case '2':
         case 'what courses are offered?':
             answer = 'Courses include Business, Communication, and more. Visit our Academics page for details.';
-            link = 'https://www.esfambeninuni.com/applynow.php';
+            link = 'https://www.esfambeninuni.com/academics.php';
             break;
         case '3':
         case 'what is the tuition fee structure?':
-            answer = 'Tuition fees vary. Visit the fees page for details.';
-            link = 'https://www.esfambeninuni.com/applynow.php';
+            answer = 'Tuition fees vary. Visit the fees page for details or contact us.';
+            link = 'https://www.esfambeninuni.com/academics.php#';
             break;
         case '4':
         case 'how can i apply?':
@@ -79,7 +79,7 @@ function provideAnswer(question) {
         case '5':
         case 'where is the university located?':
             answer = 'ESFAM University is located in Porto Novo, Benin Republic.';
-            link = 'https://www.esfambeninuni.com/applynow.php';
+            link = 'https://www.esfambeninuni.com/contact.php';
             break;
         case '6':
         case 'what is the current weather?':
@@ -87,7 +87,7 @@ function provideAnswer(question) {
             return;
         default:
             answer = 'I\'m not sure about that. Please check our website for more information.';
-            link = 'https://www.esfambeninuni.com/applynow.php';
+            link = 'https://www.esfambeninuni.com/index.php';
     }
 
     displayBotMessage(`${answer} ${link ? `<br><a href="${link}" target="_blank">Click here for more info</a>` : ''}`);
